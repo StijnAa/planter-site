@@ -1,5 +1,7 @@
 import calculatePlankLenght from "../calculatePlankLength";
 
+// TODO: state vanuit context
+
 const calculateFixtureCost = (h, w, l, plankHeight, fixturePrice) => {
   return fixturePrice * calculatePlankLenght(h, w, l, plankHeight);
 };
